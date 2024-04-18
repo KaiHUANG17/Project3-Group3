@@ -1,6 +1,12 @@
 # Group-3-Project-3
 Group 3 Project 3 - Huang, Potter, Bhardwaj, Robertson
 
+Link to the interactive dashboard:
+
+https://kaihuang17.github.io/Project3-Group3/
+
+!['20 year GDP'](Clean_Data_Visualisation/choropleth_map.png)
+
 ## Analysis
 
 The intention of this project was to take CO2 emissions data and measure it against certain economic markers to generate a snapshot of a countries environmental impact vs economic efficiency for first two decades at the turn of the millenium. 
@@ -55,9 +61,23 @@ Data was accessed and cleaned from the source to be stored in a PostgreSQL datab
 
 ![ERD](sqlDatabase/country_emissions_erd.png)
 
-## Discussion
+## Interesting Trends
 
+From an an analysis of the data two interesting trends have emerged.
 
+The first compares carbon emissions per capita. From the visualisation below, we can clearly see a significantly larger emissions output from nations with higher GDP. Second to this a majority of countries considered developed have trended down in their CO2 emissions output over the two decades measured. This could be attributed to a number of causes including but not limited to:
+- Investment in green energy manufacturing
+- Reduction in waste consumption
+- A shift in attitudes favouring environmental preservation
+- Export of heavy emissions manufacturing to less developed nations.
+
+![Carbon Emissions Per GDP](Clean_Data_Visualisation/Analysis_Visuals/Carbon_Emissions_per_GDP_Visual_and_table.png)
+
+In direct contrast to this CO2 emissions have seen a rise in developing and underdeveloped nations for almost the exact opposite reason. Significant social inequalities and growing populations bring about a unique set of economic circumstances where the production of mass quantities of product or manufacturing of goods and services is required to sustain the population. Generally this relies on cheap available technologies and processes which do not favour sustainability or environmentally friendly practices. 
+
+The above points go match the second major trend revealed in the data. Countries considered more developed nations (i.e higher GDP) output less emissions per GDP and are overwhelmingly trending down as the two decades progressed. As mentioned above to sustain growing populations, countries with lower GDP and increasing populations generally rely on cheaper less environmentally friendly manufacturing and production processes contributing to increased and elevated CO2 emissions.
+
+![Carbon Emissions Per Capita](Clean_Data_Visualisation/Analysis_Visuals/Carbon_Emissions_per_Capita_Visual_and_table.png)
 
 ## Ethical Considerations
 
