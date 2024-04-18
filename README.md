@@ -47,7 +47,16 @@ And 3 economic markers:
   #### Country GDP (Millions of $USD)
   !['20 year GDP'](Clean_Data_Visualisation/Cleaned_Data/Average_Income.png)
 
-The data was
+Data was accessed and cleaned from the source to be stored in a PostgreSQL database. Attention had to be put into the GDP and Population figures as they were not represented in integer format. Ultimately the resulting table was created for each metric, as well as additional identifying tables:
+- Countries
+- Country IDs
+- Classifications
+- Coutnry Class
+
+![ERD](sqlDatabase/country_emissions_erd.png)
+
+## Discussion
+
 
 ## Ethical Considerations
 
