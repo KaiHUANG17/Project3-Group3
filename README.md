@@ -1,9 +1,15 @@
 # Group-3-Project-3
 Group 3 Project 3 - Huang, Potter, Bhardwaj, Robertson
 
+Link to the interactive dashboard:
+
+https://kaihuang17.github.io/Project3-Group3/
+
+!['20 year GDP'](Clean_Data_Visualisation/choropleth_map.png)
+
 ## Analysis
 
-The inention of this project was to take CO2 emissions data and measure it against certain economic markers to generate a snapshot of a countries environmental impact vs economic efficiency for first two decades at the turn of the millenium. 
+The intention of this project was to take CO2 emissions data and measure it against certain economic markers to generate a snapshot of a countries environmental impact vs economic efficiency for first two decades at the turn of the millenium. 
 
 Data was accessed from Gapminder, a publicly available database of information containing historic and projected social, economic & environmental datasets. A sample of 15 countries were selected to create a global summary. Groups of five countries were selected to represent a selection from three distinct market classifications:
 
@@ -55,7 +61,8 @@ Data was accessed and cleaned from the source to be stored in a PostgreSQL datab
 
 ![ERD](sqlDatabase/country_emissions_erd.png)
 
-## Discussion
+## Results
+
 
 
 ## Ethical Considerations
