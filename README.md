@@ -71,7 +71,7 @@ The first compares carbon emissions per capita. From the visualisation below, we
 - A shift in attitudes favouring environmental preservation
 - Export of heavy emissions manufacturing to less developed nations.
 
-![Carbon Emissions Per GDP](Clean_Data_Visualisation/Analysis_Visuals/Carbon_Emissions_per_GDP_Visual_and_table.png)
+![Carbon emissions per GDP](Clean_Data_Visualisation/Analysis_Visuals/Carbon_Emissions_per_GDP_Visual_and_table.png)
 
 In direct contrast to this CO2 emissions have seen a rise in developing and underdeveloped nations for almost the exact opposite reason. Significant social inequalities and growing populations bring about a unique set of economic circumstances where the production of mass quantities of product or manufacturing of goods and services is required to sustain the population. Generally this relies on cheap available technologies and processes which do not favour sustainability or environmentally friendly practices. 
 
