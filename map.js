@@ -22,7 +22,7 @@ function makeGeoJSON(year) {
         // Create a new choropleth layer
         geojsonLayer = L.choropleth(data, {
             valueProperty: "CO2 emissions per capita",
-            scale: ['#ffffb2', '#fecc5c', '#fd8d3c', '#f03b20', '#bd0026'], 
+            scale: ['#ffffb2', '#fecc5c', '#fd8d3c', '#f03b20','#ff0000','#bd0026'], 
             steps: 10,
             mode: "q",
             
@@ -60,7 +60,7 @@ document.getElementById('yearSelector').addEventListener('change', function() {
 makeGeoJSON('2019');
 
 let limits = [0, 4, 8, 12, 16,20];
-let colors = ['#ffffb2', '#fecc5c', '#fd8d3c', '#f03b20', '#bd0026'];
+let colors = ['#ffffb2', '#fecc5c', '#fd8d3c', '#f03b20', '#ff0000','#bd0026'];
 // Add legend to the map
 let legend = L.control({position: "bottomright"});
 legend.onAdd = function() {
